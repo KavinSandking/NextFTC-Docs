@@ -28,7 +28,7 @@ and provide the necessary subsystem instances to its constructor.
 == Kotlin
 
 ```kotlin 
-object MySubsystemGroup() : SubsystemGroup(
+object MySubsystemGroup : SubsystemGroup(
     MyFirstSubsystem,
     MySecondSubsystem
 )
