@@ -15,7 +15,7 @@ optionally implement the `initialize` and/or `periodic` functions as well.
 == Kotlin
 
 ```kotlin
-class MySubsystem : Subsystem {
+object MySubsystem : Subsystem {
     // put hardware, commands, etc here
     
     override fun initialize() {
